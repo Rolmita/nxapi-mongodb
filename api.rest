@@ -1,0 +1,88 @@
+# Ejemplos
+
+GET http://localhost:3000/api/productos HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/api/productos/654e4f5a0aa8918bbd1fa8a6 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3000/api/productos/654e4f5a0aa8918bbd1fa8a6 HTTP/1.1
+content-type: application/json
+
+{
+"nombre": "COLLAR CORDÓN CORAZÓN - ZARA",
+"precio": 10.95,
+"descripcion": "Collar de cordón con colgante en forma de corazón con aplicación de brillos."
+}
+
+###
+
+DELETE http://localhost:3000/api/productos/654e4f5a0aa8918bbd1fa8a6 HTTP/1.1
+content-type: application/json
+
+###
+
+POST http://localhost:3000/api/productos HTTP/1.1
+content-type: application/json
+
+{
+"nombre": "COLLAR CORDÓN CORAZÓN - ZARA",
+"precio": 15.95,
+"descripcion": "Collar de cordón con colgante en forma de corazón con aplicación de brillos."
+}
+
+###
+
+GET https://nxapi-mongodb-five.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+###
+GET https://nxapi-mongodb-five.vercel.app/api/productos/654e4c6b0aa8918bbd1fa8a0 HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE https://nxapi-mongodb-five.vercel.app/api/productos/654e4c6b0aa8918bbd1fa8a0 HTTP/1.1
+content-type: application/json
+
+### 
+
+POST https://nxapi-mongodb-five.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{
+"nombre": "VESTIDO LARGO SOFT RIB - ZARA",
+"precio": 34.95,
+"descripcion": "Vestido largo de escote pico y manga larga"
+}
+
+###
+
+PUT https://nxapi-mongodb-five.vercel.app/api/productos/654e4ba30aa8918bbd1fa89f
+content-type: application/json
+
+{
+"nombre": "CAZADORA CROP DENIM TRF BRILLOS - ZARA",
+"precio": 50.90,
+"descripcion": "Cazadora corta de cuello solapa y manga larga acabada en puño. \n        Bolsillos de plastrón en pecho. Detalle de trabillas en espalda y brillos en forma de tela de araña. \n        Bajo acabado sin costuras. Cierre frontal con botones metálicos"
+}
+
+### 
+
+DELETE https://nxapi-mongodb-five.vercel.app/api/productos/654e4ba30aa8918bbd1fa89f
+content-type: application/json
+
+###
+
+POST https://nxapi-mongodb-five.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{
+"nombre": "CAZADORA CROP DENIM TRF BRILLOS - ZARA",
+"precio": 59.95,
+"descripcion": "Cazadora corta de cuello solapa y manga larga acabada en puño. \n        Bolsillos de plastrón en pecho. Detalle de trabillas en espalda y brillos en forma de tela de araña. \n        Bajo acabado sin costuras. Cierre frontal con botones metálicos"
+}
